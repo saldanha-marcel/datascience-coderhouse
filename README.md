@@ -1,25 +1,33 @@
-# The Data
+# The Dataset 
 
-This dataset provides comprehensive insights into the operations and performance of an e-commerce platform, including details about customers, merchants, and transactional activity across multiple locations. It captures key data points that are essential for analyzing customer behavior, sales patterns, and business performance across different regions and demographics.
+Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests
 
-The data is from the kaggle base [here](https://www.kaggle.com/datasets/ahmedezzatibrahem/e-commerce/data).
+The data is from website UC Irvine Machine Learning Repository base [here](https://archive.ics.uci.edu/dataset/186/wine+quality).
 
-## E-commerce_data.xlsx
+## winequality-red.csv
+## winequality-white.csv
 
 
-| Column               | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| `'transaction_id'`   | Unique identifier for each transaction.                                     |
-| `'customer_id'`      | Unique identifier for each customer.                                        |
-| `'transaction_date'` | Date and time when the transaction occurred - format: YYYY-MM-DD.           |
-| `'transaction_status'` | Status of the transaction (e.g., completed, pending, cancelled).          |
-| `'coupon_name'`      | Name of the coupon used in the transaction, if applicable.                  |
-| `'burn_date'`        | Date when the coupon was used or redeemed - format: YYYY-MM-DD.             |
-| `'branch_id'`        | Unique identifier for the branch where the transaction occurred.            |
-| `'join_date'`        | Date when the customer joined or registered - format: YYYY-MM-DD.           |
-| `'city_id'`          | Unique identifier for the city associated with the transaction or customer. |
-| `'gender_id'`        | Unique identifier for the customer's gender.                                |
-| `'gender_name'`      | Name or label for the customer's gender (e.g., Male, Female, Other).        |
-| `'city_name'`        | Name of the city associated with the transaction or customer.               |
-| `'merchant_id'`      | Unique identifier for the merchant involved in the transaction.             |
-| `'merchant_name'`    | Name of the merchant involved in the transaction.                           |
+| Column               |
+|----------------------|
+| `'fixed acidity'`    |
+| `'volatile acidity'` |
+| `'citric acid'`      |
+| `'residual sugar'`   |
+| `'chlorides'`        |
+| `'free sulfur dioxide'`        |
+| `'total sulfur dioxide'`        |
+| `'density'`          |
+| `'pH'`               |
+| `'sulphates'`        |
+| `'alcohol'`          |
+| Column  target       |
+| ---------------------|
+| `'quality'`          |
+
+
+
+### License
+This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
